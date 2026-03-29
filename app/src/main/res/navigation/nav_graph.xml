@@ -14,6 +14,10 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_GitHubProfileFragment"
+            app:destination="@id/GitHubProfileFragment" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -25,4 +29,10 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/GitHubProfileFragment"
+        android:name="com.example.myapplication.GitHubProfileFragment"
+        android:label="@string/github_profile_fragment_label"
+        tools:layout="@layout/fragment_github_profile" />
 </navigation>

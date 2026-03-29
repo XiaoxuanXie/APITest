@@ -7,6 +7,13 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <!-- GitHub profile WebView: replace with your profile, e.g. https://github.com/yourusername -->
+    <string name="github_profile_url">https://github.com/XiaoxuanXie/APITest</string>
+    <string name="github_profile_button">My GitHub</string>
+    <string name="github_profile_fragment_label">GitHub</string>
+    <string name="github_webview_load_error">Page could not load (%1$s). Check your network and try again.</string>
+    <string name="github_webview_retry">Retry</string>
+
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
